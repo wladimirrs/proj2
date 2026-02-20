@@ -21,11 +21,11 @@
 
             <h2>Meine persönliche Seite</h2>
             <h3>Hallo, ich bin Wladimir Risling</h3>
-            <p>Willkommen auf meiner ersten persönlichen Webseite. Sie wurde mit HTML und CSS erstellt und
-                wird fortlaufend ausgebaut. Ich nehme an der Umschulung als Anwendungsentwickler
-                bei GFN in Bielefeld teil. Auf dieser Seite sind meine Skills kurz aufgezählt. Auf den anderen
-                Seiten findet ihr eine detailliertere Beschreibung über mich, meine Projekte
-                sowie ein Formular zum Kontaktieren.
+            <p width="600">Willkommen auf meiner ersten persönlichen Webseite. Sie wurde mit HTML und CSS erstellt und
+            wird fortlaufend ausgebaut. Ich nehme an der Umschulung als Anwendungsentwickler
+            bei GFN in Bielefeld teil. Auf dieser Seite sind meine Skills kurz aufgezählt. Auf den anderen
+            Seiten findet ihr eine detailliertere Beschreibung über mich, meine Projekte
+            sowie ein Formular zum Kontaktieren.
             </p>
 
         </nav>
@@ -37,9 +37,9 @@
 
 
 <!--Das, was in der Mitte im Grauen ist.-->
-    <main>
-        <section>
-            <p id="python1"><strong>Python</strong></p>
+    <main class="flexcontainer">
+        <section class="box skill">
+            <p><strong>Python</strong></p>
             <ul>
                 <li>Grundlagen</li>
                 <li>Arbeit mit Klassen</li>
@@ -47,7 +47,9 @@
                 <li>Tkinter</li>
                 <li>simple GUI</li>
             </ul>
-
+        </section>
+            
+        <section class="box skill">
             <p><strong>Java</strong></p>
             <ul>
                 <li>Grundlagen</li>
@@ -55,7 +57,9 @@
                 <li>Anbindung an eine Datenbank</li>
                 <li>eine simple Anwendung</li>
             </ul>
+        </section>
 
+        <section class="box skill">
             <p><strong>HTML und CSS</strong></p>
             <ul>
                 <li>Grundlagen</li>
@@ -66,12 +70,17 @@
                 <li>Eine kurze HTML-Wiki</li>
                 <li>nützliche HTML-Befehle</li>
             </ul>
+        </section>
 
+        <section class="box skill">
             <p><strong>SQL</strong></p>
             <ul>
                 <li>Ausgabe, Bearbeiten und Erstellen von Datenbanken</li>
                 <li>Sowohl das Verwenden von GUI dafür auch als Textbefehl</li>
             </ul>
+        </section>
+
+        <section class="box skill">
             <p><strong>Netzwerk</strong></p>
             <ul>
                 <li>Simulation in Packet Tracer</li>

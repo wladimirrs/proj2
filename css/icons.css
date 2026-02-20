@@ -1,1 +1,32 @@
 /* Eine 2. CSS-Datei für feinere Arbeiten am Design */
+/* Gefärbte Boxen */
+
+/*.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}*/
+
+.flexcontainer {
+    display: grid;
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.box {
+    background-color: azure;
+    flex: 1;
+    height: 180px;
+    width: 400px;
+    border: 1px solid purple;
+    padding: 5px;
+
+}
+
+.skill {
+    background-color: azure;
+}
+
+
