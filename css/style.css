@@ -20,4 +20,11 @@ footer {
 
 
 
+/* Hover-Farbe für Links und Knöpfe */
+a:hover {
+    color: orange;
+}
 
+button:hover {
+    color: orange;
+}
