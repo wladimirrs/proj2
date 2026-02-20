@@ -1,14 +1,20 @@
 
 /* oberer und unterer Bereich mit Farbe */
 nav {
-    background-color: rgb(46, 213, 132);
+    background-color: rgb(93, 242, 255);
     height: 200px;
 }
 
 footer {
     background-color: rgb(53, 110, 195);
     height: 150px;
+    padding-bottom: 0px;
 }
 
 
 
+/* Hauptteil mit Farbe auffüllen */
+main {
+    background-color: rgb(213, 249, 237);
+    min-height: 500px;
+}
