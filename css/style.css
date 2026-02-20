@@ -8,7 +8,7 @@ nav {
 
 main {
     background-color: rgb(245, 245, 245);
-    color: rgb(119, 0, 38);
+    color: rgb(82, 0, 26);
     min-height: 500px;
 }
 
@@ -26,5 +26,12 @@ a:hover {
 }
 
 button:hover {
-    color: orange;
+    color: teal;
+}
+
+
+/* Farbe für Formulareingabetext */
+
+#form1>input {
+    color: rgb(82, 0, 26);
 }
