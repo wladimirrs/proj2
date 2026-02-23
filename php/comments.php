@@ -10,6 +10,9 @@
 <body>
     <?php
     echo "Hier stehen Kommentare";
+    // einzeilig
+    # einzeilig
+    /* mehrzeilig */
     ?>
 
     <?php
