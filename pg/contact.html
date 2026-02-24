@@ -37,21 +37,23 @@
 
 <!--Das, was in der Mitte im Grauen ist.-->
     <main>
-        <section>
+        <section class="form1">
+            <fieldset>
             <form id="form1">
                 <label for="eingabe1">Benutzername:</label>
                     <input type="text" name="eingabe1" id="eingabe1" placeholder="..."><br>
-                <label for="email1">Benutzername:</label>
+                <label for="email1">E-Mail:</label>
                     <input type="email" name="email1" id="email1" placeholder="..."><br>
                 <label for="pw1">Passwort:</label>
                     <input type="password" name="pw1" id="pw1" placeholder="..."><br>
                 <label for="datum1">Datum:</label>
                     <input type="date" name="datum1" id="datum1" placeholder="..."><br>
-                <label for="wishes1">Benutzername:</label>
+                <label for="wishes1">Sonstiges:</label>
                     <textarea name="wishes1" id="wishes1" placeholder="..." height="250px" width="250px"></textarea><br>
-                <button type="submit">Absenden</button>
-                <button type="reset">Löschen</button>
+                <button id="buttons" type="submit">Absenden</button>
+                <button id="buttons" type="reset">Löschen</button>
             </form>
+            </fieldset>
 
         </section>
     </main>
